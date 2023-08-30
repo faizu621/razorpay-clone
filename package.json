@@ -1,0 +1,18 @@
+{
+  "homepage": "https://faizu621.github.io/razorpay-clone/",
+  "scripts": {
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "feather": "^0.0.5"
+  }
+}
